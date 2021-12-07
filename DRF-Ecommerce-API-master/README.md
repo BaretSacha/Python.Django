@@ -16,7 +16,7 @@ Installation étape :
 2. Aller dans le directory de l'env `cd projectenv`
 3. Activer le Virtual Environment `chmod +x ./venv/bin/activate.csh`
 4. Go To Project Directory `cd DRF-Ecommerce-API`
-5. Installer les paquets requis `pip3 install -r requirements.txt`
+5. Installer les paquets requis `pip3 install -r requirements.txt` `pip3 install django-heroku`
 6. Migrate Database `python3 manage.py migrate`
 7. Finallement demarrer le Projet `python3 manage.py runserver`
 
